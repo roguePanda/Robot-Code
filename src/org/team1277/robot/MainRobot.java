@@ -114,6 +114,8 @@ public class MainRobot extends IterativeRobot {
      */
     
     public void robotInit() {
+        System.out.println("Hello, World!");
+        
         System.out.println("Initializing robot....");
         
         driveMode = 1; //Tank Drive
